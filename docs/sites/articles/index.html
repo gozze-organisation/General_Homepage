@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080a0c">
+  <meta name="description" content="coffdage — Rust developer, Linux enthusiast and creator of independent software projects.">
+  <title>GozzyYT Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="coffdage — strona główna">
+      <span class="rust-mark" aria-hidden="true">G</span><span>GozzeYT Site</span><span class="prompt">&gt;</span>
+    </a>
+    <span class="tagline">Gozze Community</span>
+    <nav class="social-nav" aria-label="Linki społecznościowe">
+      <a href="../../index.html" rel="noreferrer"><span>Home</span></a>
+      <a href="index.html" rel="noreferrer"><span>Articles</span></a>
+      <a href="../projects/index.html" rel="noreferrer"><span>Projects</span></a>
+      <a href="" rel="noreferrer"><span>Random</span></a>
+      <a href="" rel="noreferrer"><span>Random</span></a>
+      <a href="" rel="noreferrer"><span>Random</span></a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Przełącz motyw" title="Przełącz motyw">☼</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Otwórz menu" aria-expanded="false">☰</button>
+    </nav>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <nav class="side-nav" aria-label="Nawigacja">
+      <a class="active" href="#home"><span>⌂</span> Home</a>
+      <a href="#about"><span>♙</span> O mnie</a>
+      <a href="#projects"><span>▤</span> Projekty</a>
+      <a href="#skills"><span>⚙</span> Umiejętności</a>
+      <a href="#contact"><span>✉</span> Kontakt</a>
+      <a href="#about"><span>♙</span> O mnie</a>
+      <a href="#projects"><span>▤</span> Projekty</a>
+      <a href="#skills"><span>⚙</span> Umiejętności</a>
+    </nav>
+    <footer class="sidebar-footer">
+      <p>© <span id="year"></span> NeiTi4Dot<br>All rights reserved.</p>
+      <p>♥ Made with <b>Rust</b></p>
+    </footer>
+  </aside>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PORTFOLIO / DEVELOPER</p>
+        <h1>Welcome to GozzeYT Site<br> I'm <span class="hero-name">Gozze (NeiTi4Dot)</span><span class="caret">|</span></h1>
+        <p class="hero-subtitle">Programista, pisarz, pasjonat technologii.<br>Tworzę i projektuje rzeczy, oraz .</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span>◉</span> Zobacz moje projekty</a>
+          <a class="button button-secondary" href="#contact"><span>▤</span> Skontaktuj się</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="code-float">{<br>&nbsp; <i>"language"</i>: <b>"Rust"</b>,<br>&nbsp; <i>"mindset"</i>: <b>"Build"</b>,<br>&nbsp; <i>"goal"</i>: <b>"Engineer"</b><br>}</div>
+        <div class="rust-emblem">R</div>
+        <div class="mountain mountain-back"></div>
+        <div class="mountain mountain-front"></div>
+        <div class="forest">♠　♠　♠　♠　♠　♠　♠</div>
+      </div>
+    </section>
+    
+        <!-- Article section: full-width article layout -->
+        <section class="article-section" id="article">
+          <article class="article-content">
+            <p class="eyebrow">DOCUMENTATION / ARTICLE</p>
+            <h2><span class="section-icon">¶</span> ArticleSection</h2>
+            <p class="article-intro">Pełnowymiarowa sekcja artykułu do dokumentacji, opisów projektów i technicznych wpisów.</p>
+            <div class="article-meta"><span>AUTHOR: COFFDAGE</span><span>TOPIC: DEVELOPMENT</span></div>
+            <div class="article-body">
+              <h3>Dlaczego osobna sekcja?</h3>
+              <p>Układ artykułu ma większą szerokość niż pojedyncza kolumna sekcji „O mnie”. Dzięki temu możesz wygodnie opisywać architekturę projektu, decyzje techniczne i kolejne etapy rozwoju.</p>
+              <h3>Przykładowa lista</h3>
+              <ul>
+                <li>Opis problemu i założeń.</li>
+                <li>Wyjaśnienie sposobu działania.</li>
+                <li>Linki do kodu źródłowego i dokumentacji.</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+
+    <section class="contact-section" id="contact">
+      <div><h2><span class="section-icon">✉</span> Kontakt</h2><p>Masz pytania, pomysł na współpracę lub chcesz po prostu napisać? Znajdziesz mnie tutaj.</p></div>
+      <div class="contact-links">
+        <a class="button button-secondary" href="https://github.com/NeiTi4Dot" target="_blank" rel="noreferrer">GitHub (NeiTi4Dot)</a>
+        <a class="button button-secondary" href="https://youtube.com/@coffdage" target="_blank" rel="noreferrer">YouTube (Coffdage)</a>
+        <a class="button button-secondary" href="https://youtube.com/@GozzeYT" target="_blank" rel="noreferrer">YouTube (GozzeYT)</a>
+        <a class="button button-secondary" href="https://discord.gg/Fu5HmcG9Us" target="_blank" rel="noreferrer">Discord</a>
+        <a class="button button-secondary" href="mailto:hello@coffdage.com">✉ Email</a>
+      </div>
+    </section>
+    <footer class="main-footer"><span>coffdage <b>•</b> Portfolio</span><span>Built with <b>HTML</b>, <b>CSS</b> &amp; <b>JavaScript</b></span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
